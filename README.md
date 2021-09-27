@@ -9,6 +9,7 @@
            /___/                                                           
     </pre><!-- white text and background :) /!-->
     <font color="#FFFFFF">uma aplicação web para venda de ingressos utilizando Django 💸</font></td></tr></tbody>
+    <br>
     <img src='https://img.shields.io/badge/Python-3.9.2-blue'></img>
     <img src='https://img.shields.io/badge/Django-3-red'></img>
 </div>
