@@ -28,13 +28,17 @@
 
     - User
       - seller
+        - events tickets
       - client
-    - ticket
-    - event
 
-> Planning web routes :warning:
+> Web routes :warning:
 
-> Make a basic web deploy CI/CD :warning:
+    - Home :warning:
+    - Seller :warning:
+    - Events :warning:
+    - ticket :warning:
+    
+> Make a basic web deploy CI/CD :heavy_check_mark:
 
 ## Runnig project in devEnv
 
