@@ -1,5 +1,3 @@
-# ingressochain.com
-
 <div align='center'>
     <tbody><tr><td><pre>   
        _                                    __        _                    
