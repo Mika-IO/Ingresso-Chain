@@ -1,14 +1,13 @@
 # Ingresso-Chain
 
 <div align='center'>
-    <pre>   
-       _                                    __        _                    
-      (_)__  ___ ________ ___ ___ ___  ____/ /   ___ _(_)__   _______  __ _ 
-     / / _ \/ _ `/ __/ -_|_-&lt;(_-&lt;/ _ \/ __/ _ \/ _ `/ / _ \_/ __/ _ \/' \
+    <tbody><tr><td><pre>   _                                    __        _                    
+      (_)__  ___ ________ ___ ___ ___  ____/ /  ___ _(_)__   _______  __ _ 
+     / / _ \/ _ `/ __/ -_|_-&lt;(_-&lt;/ _ \/ __/ _ \/ _ `/ / _ \_/ __/ _ \/  ' \
     /_/_//_/\_, /_/  \__/___/___/\___/\__/_//_/\_,_/_/_//_(_)__/\___/_/_/_/
            /___/                                                           
-    </pre>
-    <h2><b>uma aplicação web para venda de ingressos utilizando Django 💸</b></h2>
+    </pre><!-- white text and background :) /!-->
+    <font color="#FFFFFF">uma aplicação web para venda de ingressos utilizando Django 💸</font></td></tr></tbody>
     <img src='https://img.shields.io/badge/Python-3.9.2-blue'></img>
     <img src='https://img.shields.io/badge/Django-3-red'></img>
 </div>
