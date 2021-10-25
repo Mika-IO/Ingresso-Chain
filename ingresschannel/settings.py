@@ -37,7 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ingressochain.urls'
+ROOT_URLCONF = 'ingresschannel.urls'
 
 TEMPLATES = [
     {
@@ -55,7 +55,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ingressochain.wsgi.application'
+WSGI_APPLICATION = 'ingresschannel.wsgi.application'
 
 
 DATABASES = {

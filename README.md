@@ -14,7 +14,7 @@
 
 ## *Website*
 
-[ingressochain.com](https://www.ingressochain.com/)
+[ingresschannel.com](https://www.ingresschannel.com/)
 
 ## *App*
 

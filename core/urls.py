@@ -4,11 +4,11 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
-app_name = 'ingressochain'
+app_name = 'ingresschannel'
 urlpatterns = [
     path('', core_views.home, name='home'),
-    # path('atractions')
-    # path('atraction/event')
+    path('event', core_views.event, name='event'),
+    path('dashboard', core_views.dashboard, name='dashboard')
     # path('buy/ticket')
     # path('advetiser')
 

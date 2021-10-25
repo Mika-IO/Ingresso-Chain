@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INGRESSCHANNEL</title>
+    <meta name="description" content="Free open source Tailwind CSS Store template">
+    <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,store template, shop layout, minimal, monochrome, minimalistic, theme, nordic">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <div class=" w-full">
+      <div @click.away="open = false" class="flex flex-col w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 flex-shrink-0" x-data="{ open: false }">
+        <div class="flex-shrink-0 px-8 py-4 flex flex-row items-center w-full justify-between">
+            <div class="order-1 mx-auto">
+                <a class="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="/">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/starred-ticket.png"/>
+                    INGRESSCHANNEL
+                </a>
+            </div>          
+            
+            <button class="rounded-lg rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+            <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+              <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+              <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+        <nav :class="{'block': open, 'hidden': !open}" class="flex-grow  px-4 pb-4o">
+            <ul class="mt-6">
+                <li class="relative px-6 py-3">
+                <span
+                    class="absolute inset-y-0 left-0 w-1 bg-gray-600 rounded-tr-lg rounded-br-lg"
+                    aria-hidden="true"
+                ></span>
+                <a
+                    class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
+                    href="#"
+                >
+                    <svg
+                    class="w-5 h-5"
+                    aria-hidden="true"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    >
+                    <path
+                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                    ></path>
+                    </svg>
+                    <span class="ml-4">Dashboard</span>
+                </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="relative px-6 py-3">
+                <a
+                    class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+                    href="#"
+                >
+                    
+                    <svg 
+                        class="svg-icon" 
+                        style="width: 1.4em; height: 1.4em;vertical-align: middle;fill: currentColor;overflow: hidden;" 
+                        viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M780.190476 146.334476 780.190476 48.713143C780.190476 21.796571 758.296381 0 731.428571 0c-26.916571 0-48.761905 21.796571-48.761905 48.713143l0 97.621333C682.666667 173.251048 704.560762 195.047619 731.428571 195.047619 758.345143 195.047619 780.190476 173.251048 780.190476 146.334476z"  />
+                        <path d="M304.761905 195.047619C324.949333 195.047619 341.333333 178.761143 341.333333 158.378667L341.333333 36.668952C341.333333 16.432762 324.998095 0 304.761905 0L280.380952 0C260.193524 0 243.809524 16.286476 243.809524 36.668952l0 121.660952C243.809524 178.614857 260.144762 195.047619 280.380952 195.047619L304.761905 195.047619z"  /><path d="M30.671238 97.52381C13.702095 97.52381 0 111.713524 0 129.121524l0 863.232C0 1009.859048 13.702095 1024 30.622476 1024l962.706286 0C1010.297905 1024 1024 1009.810286 1024 992.353524L1024 129.121524C1024 111.664762 1010.249143 97.52381 993.328762 97.52381L828.952381 97.52381l0 91.233524C828.952381 219.37981 796.184381 243.809524 755.760762 243.809524l-48.664381 0C666.526476 243.809524 633.904762 219.184762 633.904762 188.757333L633.904762 97.52381 390.095238 97.52381l0 91.233524C390.095238 219.37981 357.327238 243.809524 316.903619 243.809524L268.239238 243.809524C227.669333 243.809524 195.047619 219.184762 195.047619 188.757333L195.047619 97.52381 30.671238 97.52381zM828.952381 438.857143l146.285714 0 0 146.285714-146.285714 0L828.952381 438.857143zM828.952381 633.904762l146.285714 0 0 146.285714-146.285714 0L828.952381 633.904762zM828.952381 828.952381l146.285714 0 0 128.048762C975.238095 967.046095 965.87581 975.238095 954.270476 975.238095L828.952381 975.238095 828.952381 828.952381zM633.904762 438.857143l146.285714 0 0 146.285714-146.285714 0L633.904762 438.857143zM633.904762 633.904762l146.285714 0 0 146.285714-146.285714 0L633.904762 633.904762zM633.904762 828.952381l146.285714 0 0 146.285714-146.285714 0L633.904762 828.952381zM438.857143 438.857143l146.285714 0 0 146.285714L438.857143 585.142857 438.857143 438.857143zM438.857143 828.952381l146.285714 0 0 146.285714L438.857143 975.238095 438.857143 828.952381zM243.809524 438.857143l146.285714 0 0 146.285714L243.809524 585.142857 243.809524 438.857143zM243.809524 633.904762l146.285714 0 0 146.285714L243.809524 780.190476 243.809524 633.904762zM243.809524 828.952381l146.285714 0 0 146.285714L243.809524 975.238095 243.809524 828.952381zM195.047619 975.238095 69.729524 975.238095C58.12419 975.238095 48.761905 967.094857 48.761905 957.001143L48.761905 828.952381l146.285714 0L195.047619 975.238095zM195.047619 780.190476 48.761905 780.190476l0-146.285714 146.285714 0L195.047619 780.190476zM195.047619 585.142857 48.761905 585.142857 48.761905 438.857143l146.285714 0L195.047619 585.142857z"  />
+                    </svg>
+                    <span class="ml-4">Criar evento</span>
+
+                </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="relative px-6 py-3">
+                <a
+                    class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+                    href="#"
+                >
+                    
+                    <svg 
+                        class="svg-icon" 
+                        style="width: 1.5em; height: 1.5em;vertical-align: middle;fill: currentColor;overflow: hidden;" 
+                        viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M896.2 444.5H130.9V99.2h765.2v345.3z m-709.5-55.7h653.7V155H186.7v233.8z" fill="#000000" />
+                        <path d="M735.236 279.539v619.9h-443.4v-619.9z" fill="#FFFFFF" />
+                        <path d="M763.1 927.3H264V251.7h499.2v675.6z m-443.4-55.7h387.7V307.4H319.7v564.2z" fill="#000000" />
+                        <path d="M395.8 279.5h55.8v619.9h-55.8zM522.3 653h129v178h-129z" fill="#000000" />
+                    </svg>
+                    <span class="ml-4">Solicitar saque</span>
+                </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="relative px-6 py-3">
+                <a
+                    class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+                    href="#"
+                >
+                    
+                    <svg 
+                        class="svg-icon" 
+                        style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" 
+                        viewBox="0 0 1024 1024" 
+                        version="1.1" 
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M312.1 591.5c3.1 3.1 8.2 3.1 11.3 0l101.8-101.8 86.1 86.2c3.1 3.1 8.2 3.1 11.3 0l226.3-226.5c3.1-3.1 3.1-8.2 0-11.3l-36.8-36.8c-3.1-3.1-8.2-3.1-11.3 0L517 485.3l-86.1-86.2c-3.1-3.1-8.2-3.1-11.3 0L275.3 543.4c-3.1 3.1-3.1 8.2 0 11.3l36.8 36.8z"  />
+                        <path d="M904 160H548V96c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H120c-17.7 0-32 14.3-32 32v520c0 17.7 14.3 32 32 32h356.4v32L311.6 884.1c-3.7 2.4-4.7 7.3-2.3 11l30.3 47.2v0.1c2.4 3.7 7.4 4.7 11.1 2.3L512 838.9l161.3 105.8c3.7 2.4 8.7 1.4 11.1-2.3v-0.1l30.3-47.2c2.4-3.7 1.3-8.6-2.3-11L548 776.3V744h356c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32z m-40 512H160V232h704v440z"  />
+                    </svg>
+                    <span class="ml-4">Relatorio de vendas</span>
+                </a>
+                </li>
+            </ul>
+        </nav>
+      </div>
+    </div>
+
+    <main class="h-full overflow-y-auto">
+        <div class="container px-6 mx-auto grid">
+          <h2
+            class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200"
+          >
+            Dashboard
+          </h2>
+
+          <!-- Cards -->
+          <div class="my-auto h-full grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
+            <!-- Card -->
+            <div
+              class="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
+            >
+              <div
+                class="p-3 mr-4 text-orange-500 bg-orange-100 rounded-full dark:text-orange-100 dark:bg-orange-500"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <p
+                  class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400"
+                >
+                  Eventos
+                </p>
+                <p
+                  class="text-lg font-semibold text-gray-700 dark:text-gray-200"
+                >
+                  6
+                </p>
+              </div>
+            </div>
+            <!-- Card -->
+            <div
+              class="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
+            >
+              <div
+                class="p-3 mr-4 text-green-500 bg-green-100 rounded-full dark:text-green-100 dark:bg-green-500"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <p
+                  class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400"
+                >
+                  Saldo de vendas
+                </p>
+                <p
+                  class="text-lg font-semibold text-gray-700 dark:text-gray-200"
+                >
+                  R$ 46,760.89
+                </p>
+              </div>
+            </div>
+            <!-- Card -->
+            <div
+              class="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
+            >
+              <div
+                class="p-3 mr-4 text-blue-500 bg-blue-100 rounded-full dark:text-blue-100 dark:bg-blue-500"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <p
+                  class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400"
+                >
+                Ingressos vendidos
+                </p>
+                <p
+                  class="text-lg font-semibold text-gray-700 dark:text-gray-200"
+                >
+                  376
+                </p>
+              </div>
+            </div>
+          </div>
+
+    </main>
+    
+</body>
+
+</html>

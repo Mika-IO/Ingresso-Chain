@@ -1,0 +1,102 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "mikaio damaceno"
+      },
+      "creation_time": "2021-10-18T20:25:02.031Z",
+      "description": {
+        "content": "O usuario deve poder cadastrar um eventos com todas as informaçoes que forem necessarias como:\n- Nome\n- Valor\n- Data\n- Cidade\n- Estado\n- Endereco\n- Numero de ingressos",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Cadastro de eventos (Vendedor)"
+    },
+    {
+      "assignedTo": {
+        "name": "mikaio damaceno"
+      },
+      "creation_time": "2021-10-18T20:22:29.294Z",
+      "description": {
+        "content": "O usuario deve poder se cadastrar e fazer login com outh do google e facebook",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "O usuario deve poder se cadastrar e fazer login com outh do google e facebook  \n- Utilizar djangoallauth\n- O usuario deve cadastrar informacoes para pagamento (pix, banco, conta)\n",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Cadastro e login de usuario (Vendedor)"
+    },
+    {
+      "assignedTo": {
+        "name": "mikaio damaceno"
+      },
+      "creation_time": "2021-10-18T20:35:15.063Z",
+      "description": {
+        "content": "Ao clicar em finalizar compra na tela do evento o usuario sera redirecionado para uma tela de checkout onde realizara o pagamento e colocara seu email por onde recebera o ingresso.",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Finalizar compra (Comprador)"
+    },
+    {
+      "assignedTo": {
+        "name": "mikaio damaceno"
+      },
+      "creation_time": "2021-10-18T20:30:20.663Z",
+      "description": {
+        "content": "o usuario deve poder visualizar uma tabela com lista de eventos ligados a ele assim como:\n- Numero de ingressos vendidos de cada evento\n- Saldo de vendas de cada evento\nassim como os saldos totais da conta como:\n- Numero total de ingressos vendidos\n- Saldo total de vendas\n\nO usuario pode visualizar todos os seus saques\nO usuario pode requerir um novo saque",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Painel de vendas (Vendedor)"
+    },
+    {
+      "assignedTo": {
+        "name": "mikaio damaceno"
+      },
+      "creation_time": "2021-10-18T20:32:24.427Z",
+      "description": {
+        "content": "O usuario pode pesquisar por um campo de busca os eventos na home \n",
+        "mime": "text/markdown"
+      },
+      "id": "4",
+      "references": [],
+      "title": "Pesquisar eventos (Comprador)"
+    },
+    {
+      "assignedTo": {
+        "name": "mikaio damaceno"
+      },
+      "creation_time": "2021-10-18T20:33:55.827Z",
+      "description": {
+        "content": "Ao clicar num evento o usuario sera redirecionado a uma pagina com mais detalhes sobre este evento assim como podera escolhar o numero e o tipo de ingresso. Apos colocar suas opcoes o usuario podera clicar em finalizar compra",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "Visualizar evento (Comprador)"
+    },
+    {
+      "assignedTo": {
+        "name": "mikaio damaceno"
+      },
+      "creation_time": "2021-10-18T20:37:15.655Z",
+      "description": {
+        "content": "O usuario podera visualizar uma lista de eventos na home",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "Listar os eventos na home (Comprador)"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "done": []
+}

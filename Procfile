@@ -1,1 +1,1 @@
-web: gunicorn ingressochain.wsgi
+web: gunicorn ingresschannel.wsgi
