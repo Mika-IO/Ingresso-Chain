@@ -1,10 +1,6 @@
 <div align='center'>
     <tbody><tr><td><pre>   
-       _                                    __        _                    
-      (_)__  ___ ________ ___ ___ ___  ____/ /  ___ _(_)__   _______  __ _ 
-     / / _ \/ _ `/ __/ -_|_-&lt;(_-&lt;/ _ \/ __/ _ \/ _ `/ / _ \_/ __/ _ \/  ' \
-    /_/_//_/\_, /_/  \__/___/___/\___/\__/_//_/\_,_/_/_//_(_)__/\___/_/_/_/
-           /___/                                                           
+      TICKETHUB.COM                                         
     </pre><!-- white text and background :) /!-->
     <font color="#FFFFFF">uma aplicação web para venda de ingressos utilizando Django 💸</font></td></tr></tbody>
     <br>
@@ -14,7 +10,7 @@
 
 ## *Website*
 
-[ingresschannel.com](https://www.ingresschannel.com/)
+[tickethub.com](https://www.tickethub.com)
 
 ## *App*
 
